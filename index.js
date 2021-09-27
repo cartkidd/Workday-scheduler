@@ -7,7 +7,7 @@ $(document).ready(function () {
 
     var textAreas = $('textarea')
     var hour = moment().hour();
-    getItems()
+    getItems();
 
     for (var i = 0; i < textAreas.length; i++) {
         var currentTextArea = textAreas[i]
